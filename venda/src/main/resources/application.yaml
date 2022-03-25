@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: venda-microservice
+server:
+  port: 8040
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
